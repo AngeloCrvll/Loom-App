@@ -20,6 +20,10 @@ p {
     font-size: 1rem;
 }
 
+.page {
+
+}
+
 header {
     margin-top: 40px;
     display: grid;
@@ -70,6 +74,9 @@ footer {
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     padding: 8px 0;
+
+    position: fixed;
+    bottom: 0;
 }
 
 footer img {
