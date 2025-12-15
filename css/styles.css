@@ -57,8 +57,9 @@ main img {
 }
 
 main section {
-    display: grid;
+    display: flex;
     justify-content: center;  
+
 }
 
 main section div {
@@ -67,15 +68,17 @@ main section div {
     position: relative;
     top: -80px;
 
-    background-color: c;
     width: 50%;
     padding: 16px 80px ;
     border-radius: 16px;
 }
 
 .ctaHome {
+    display: block;
     color: #8E8C6F;
+
     text-decoration: none;
+    text-align: center;
 }
 
 main p {
@@ -112,8 +115,8 @@ main a {
 }
 
 .product1 {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
 
     background-image: url(../img/slaapmasker.png);
@@ -122,8 +125,8 @@ main a {
 }
 
 .product2 {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
 
     background-image: url(../img/oordopjes.png);
@@ -132,8 +135,8 @@ main a {
 }
 
 .product3 {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
 
     background-image: url(../img/sticker.png);
@@ -142,8 +145,8 @@ main a {
 }
 
 .product4 {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
 
     background-image: url(../img/koffiebeker.png);
@@ -152,8 +155,8 @@ main a {
 }
 
 .product5 {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
 
     background-image: url(../img/hoodie.png);
@@ -162,8 +165,8 @@ main a {
 }
 
 .product6 {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
 
     background-image: url(../img/shirt.png);
