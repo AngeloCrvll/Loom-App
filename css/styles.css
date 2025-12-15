@@ -16,7 +16,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.074rem;
+    font-size: 2.986rem;
 }
 
 p {
@@ -25,13 +25,19 @@ p {
 }
 
 .page {
-
+    background-color: #B6A188;
+    border-radius: 16px;
+    margin: -8px;
+    padding: 0 10px;
+    align-content: center;
 }
 
 header {
     margin-top: 40px;
     display: grid;
     justify-content: center;
+
+    color: #8E8C6F;
 }
 
 main {
