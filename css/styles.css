@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    background-color: #F3E8D2;
 }
 
 .padding {
@@ -44,7 +45,7 @@ main section div {
     position: relative;
     top: -80px;
 
-    background-color: #F3E8D2;
+    background-color: c;
     width: 50%;
     padding: 16px 80px ;
     border-radius: 16px;
@@ -53,4 +54,19 @@ main section div {
 .ctaHome {
     color: #8E8C6F;
     text-decoration: none;
+}
+
+main p {
+    color: #8E8C6F;
+    position: relative;
+    top: -24px;
+}
+
+footer {
+    background-color: #8E8C6F;
+    width: 100%;
+}
+
+footer img {
+    background-color: transparent;
 }
