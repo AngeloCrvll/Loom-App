@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.padding {
+    padding: 0 24px;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.074rem;
+}
+
+p {
+    font-family: "Agrandir";
+    font-size: 1rem;
+}
+
+header {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+}
+
+main {
+    margin-top: 24px;
+}
+
+main img {
+    width: 100%;
+}
+
+main section {
+    display: grid;
+    justify-content: center;  
+}
+
+main section div {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+
+    background-color: #F3E8D2;
+    width: 50%;
+    padding: 16px 80px ;
+    border-radius: 16px;
+}
+
+.ctaHome {
+    color: #8E8C6F;
+    text-decoration: none;
+}
