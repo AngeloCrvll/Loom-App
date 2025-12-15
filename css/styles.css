@@ -19,6 +19,14 @@ h1 {
     font-size: 2.986rem;
 }
 
+h2 {
+    font-family: "Agrandir";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.728rem;
+}
+
 p {
     font-family: "Agrandir";
     font-size: 1rem;
@@ -94,7 +102,16 @@ footer img {
     width: 64px;
 }
 
-.product {
+main article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+
+    color: #8E8C6F;
+}
+
+.product1 {
     width: 240px;
     height: 240px;
     border-radius: 16px;
@@ -102,4 +119,61 @@ footer img {
     background-image: url(../img/slaapmasker.png);
     background-size: cover;
     background-position: center;
+}
+
+.product2 {
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-image: url(../img/oordopjes.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product3 {
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-image: url(../img/sticker.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product4 {
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-image: url(../img/koffiebeker.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product5 {
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-image: url(../img/hoodie.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product6 {
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-image: url(../img/shirt.png);
+    background-size: 110%;
+    background-position: center;
+}
+
+.products {
+    padding: 0 24px;
+
+    display: grid;
+    gap: 40px;
 }
