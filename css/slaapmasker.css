@@ -33,3 +33,31 @@ header {
     padding: 0 24px ;
     color: #8E8C6F;
 }
+
+footer {
+    background-color: #8E8C6F;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding: 8px 0 8px 8px;
+
+    position: fixed;
+    bottom: 0;
+}
+
+footer img {
+    background-color: transparent;
+    width: 64px;
+}
+
+.img {
+    background-image: url(../img/slaapmasker.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
