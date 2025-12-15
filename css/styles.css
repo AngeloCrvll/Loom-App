@@ -235,6 +235,8 @@ main a {
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;
+
+    text-decoration: none;
 }
 
 .productPage {

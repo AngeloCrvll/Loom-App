@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    background-color: #F3E8D2;
+}
+
+h2 {
+    font-family: "Agrandir";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.44rem;
+}
+
+h3 {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.488rem;
+}
+
+p {
+    font-family: "Agrandir";
+    font-size: 1rem;
+}
+
+.productPage {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 40px;
+    margin-left: 16px;
+}
+
+.productPage img {
+    width: 40px;
+}
+
+header {
+    margin-top: 40px;
+
+    padding: 0 24px ;
+    color: #8E8C6F;
+}
+
+footer {
+    background-color: #8E8C6F;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding: 8px 0 8px 8px;
+
+    position: fixed;
+    bottom: 0;
+}
+
+footer img {
+    background-color: transparent;
+    width: 64px;
+}
+
+.imgMasker {
+    background-image: url(../img/slaapmasker.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.imgOortjes {
+    background-image: url(../img/oordopjes.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.imgSticker {
+    background-image: url(../img/sticker.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.imgBeker {
+    background-image: url(../img/koffiebeker.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.imgHoodie {
+    background-image: url(../img/hoodie.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.imgShirt {
+    background-image: url(../img/shirt.png);
+    width: 240px;
+    height: 240px;
+    border-radius: 16px;
+
+    background-size: 110%;
+    background-position: center;
+}
+
+main { 
+    padding: 0 24px;
+    color: #8E8C6F;
+    display: grid;
+}
+
+main section {
+    margin: 40px 0 24px 0;
+    display: grid;
+    justify-content: center;
+}
+
+main h2 {
+    position: absolute;
+    bottom: 160px;
+}
+
+.winkelwagentje {
+    position: absolute;
+    bottom: 104px;
+
+    text-decoration: none;
+    color: #F3E8D2;
+    background-color: #8E8C6F;
+    padding: 16px 16px;
+
+    border-radius: 16px
+}
+
+.winkelbtn {
+    display: grid;
+    justify-items: center;
+}
