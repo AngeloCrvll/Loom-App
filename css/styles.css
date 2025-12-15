@@ -180,3 +180,47 @@ main a {
     display: grid;
     gap: 40px;
 }
+
+.buy1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+
+    background-image: url(../img/koffiebeker.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.buy2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+
+    background-image: url(../img/oordopjes.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.buy3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+
+    background-image: url(../img/sticker.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.buy {
+    padding: 0 24px;
+    color: #8E8C6F;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.buy a {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
