@@ -8,7 +8,7 @@ h2 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.44rem;
+    font-size: 5vw;
 }
 
 h3 {
@@ -16,7 +16,7 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.488rem;
+    font-size: 10vw;
 }
 
 p {
@@ -27,12 +27,11 @@ p {
 .productPage {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 40px;
     margin-left: 16px;
 }
 
 .productPage img {
-    width: 40px;
+    width: 10vw;
 }
 
 header {
@@ -64,9 +63,9 @@ footer img {
 
 .imgMasker {
     background-image: url(../img/slaapmasker.png);
-    width: 240px;
-    height: 240px;
-    border-radius: 16px;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 3vw;
 
     background-size: cover;
     background-position: center;
@@ -74,9 +73,9 @@ footer img {
 
 .imgOortjes {
     background-image: url(../img/oordopjes.png);
-    width: 240px;
-    height: 240px;
-    border-radius: 16px;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 3vw;
 
     background-size: cover;
     background-position: center;
@@ -84,9 +83,9 @@ footer img {
 
 .imgSticker {
     background-image: url(../img/sticker.png);
-    width: 240px;
-    height: 240px;
-    border-radius: 16px;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 3vw;
 
     background-size: cover;
     background-position: center;
@@ -94,9 +93,9 @@ footer img {
 
 .imgBeker {
     background-image: url(../img/koffiebeker.png);
-    width: 240px;
-    height: 240px;
-    border-radius: 16px;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 3vw;
 
     background-size: cover;
     background-position: center;
@@ -104,9 +103,9 @@ footer img {
 
 .imgHoodie {
     background-image: url(../img/hoodie.png);
-    width: 240px;
-    height: 240px;
-    border-radius: 16px;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 3vw;
 
     background-size: cover;
     background-position: center;
@@ -114,9 +113,9 @@ footer img {
 
 .imgShirt {
     background-image: url(../img/shirt.png);
-    width: 240px;
-    height: 240px;
-    border-radius: 16px;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 3vw;
 
     background-size: 110%;
     background-position: center;
@@ -135,13 +134,12 @@ main section {
 }
 
 main h2 {
-    position: absolute;
-    bottom: 160px;
+    display: grid;
+    margin-top: 80px;
 }
 
 .winkelwagentje {
-    position: absolute;
-    bottom: 104px;
+    display: grid;
 
     text-decoration: none;
     color: #F3E8D2;
